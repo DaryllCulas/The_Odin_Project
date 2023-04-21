@@ -1,0 +1,31 @@
+[33mcommit 2c589190298cfbf0f0ab547b19895dee1535fb7b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: DaryllCulas <culasdaryll99@gmail.com>
+Date:   Sat Apr 22 00:50:20 2023 +0800
+
+    ADD hello_world.txt
+
+[33mcommit 4ac6e89b38b73ab08330052291bcbdaa014b9b89[m
+Author: DaryllCulas <culasdaryll99@gmail.com>
+Date:   Sat Apr 22 00:46:54 2023 +0800
+
+    ADD hello_world.txt
+
+[33mcommit 904ea7864d791efbaf38683cc40b089fa7df7e88[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Daryll Culas <129874425+DaryllCulas@users.noreply.github.com>
+Date:   Sat Apr 15 17:27:48 2023 +0800
+
+    Update README.md
+
+[33mcommit 3e9f10331774448c4de707f0bd15d0d6216656b2[m
+Author: Daryll Culas <129874425+DaryllCulas@users.noreply.github.com>
+Date:   Sat Apr 15 17:26:19 2023 +0800
+
+    Update README.md
+    
+    # This repo contains personal outputs that i've made from theprojectodin.org
+
+[33mcommit ebe206c1703acfdfc1f67641d535375b96b68aaf[m
+Author: Daryll Culas <129874425+DaryllCulas@users.noreply.github.com>
+Date:   Sat Apr 15 16:45:39 2023 +0800
+
+    Initial commit

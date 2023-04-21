@@ -1,4 +1,6 @@
 <php
 echo "Hello World";
+echo "It's nice to see you odin";
+
 
 ?>
