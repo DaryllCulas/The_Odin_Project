@@ -1,0 +1,28 @@
+body {
+  background-color: blue;
+}
+button {
+  margin-top: 20%;
+  padding: 20px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: chartreuse;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+button:hover {
+  background-color: purple;
+  color: white;
+
+}
+img {
+  display: inline;
+  width: 100%;
+
+}
