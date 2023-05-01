@@ -1,0 +1,21 @@
+body {
+  background-color: wheat;
+}
+.flex-container {
+  display: flex;
+  text-align: center;
+  font-size: 50pt;
+  flex-direction: column; /* Flex containers return column direction*/
+  /*flex-direction: row; /* Flex container return row direction*/
+  
+}
+/* This selector selects all divs inside of .flex-container */
+.flex-container div {
+  background-color: rgb(51, 153, 51);
+  border: 2px solid black;
+  height: 100px;
+  width: 100%;
+  flex: 1;
+
+  
+}
