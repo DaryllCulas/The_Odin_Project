@@ -7,13 +7,12 @@ const result = first + second;
 
 CalculateSpanElement.innerHTML = result;
 
-function Reset() {
-  if(first.trim()!=="" || second.trim()!=="") {
+
+}
+
+function Reset(FirstIntegerElement, SecondIntegerElement) {
+  if(FirstIntegerElement.value.trim()!=="" || SecondIntegerElement.value.trim()!=="") {
     FirstIntegerElement.value = "";
     SecondIntegerElement.value = "";
   }
 }
-
-
-}
-
