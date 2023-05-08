@@ -13,7 +13,7 @@
   background-color: yellowgreen;
   width: 30%;
   margin-top: 15%;
-  height: 200px;
+  height: 300px;
 }
 form {
   margin-top: 40px;
@@ -24,6 +24,7 @@ form {
 <body>
     <center>
       <div class="container">
+        <h1>Addition</h1>
         <form method="post">
             <input class="FirstInteger" type="text" placeholder="Integer 1">
               <br>
@@ -31,19 +32,21 @@ form {
             <input class ="SecondInteger"type="text" placeholder="Integer 2">
               <br>
               <br>
-              <input onclick=""type="button" value="Calculate">
+              <input onclick="Calculate(document.querySelector('.FirstInteger'), document.querySelector('.SecondInteger'))" type="button" value="Calculate">
+              <input onclick = "Reset()" type="button" value="Reset">
               <br>
               <label>Answer:</label>
               <br>
-              <span class="Answer-Span" style="display: none;"></span>
+              <br>
+              <span class="Answer-Span"></span>
 
         </form>
 
 
       </div>
-
+      <script src="Odin-functions.js"></script>
 
     </center>
-    <script src="Odin-functions.js"></script>
+    
 </body>
 </html>
