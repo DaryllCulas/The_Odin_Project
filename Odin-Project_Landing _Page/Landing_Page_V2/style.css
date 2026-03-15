@@ -47,11 +47,10 @@ nav ul li:hover {
 
 .hero-section {
     display:flex;
-    justify-content: center;
     background-color: #1F2937;
-    padding: 60px 0;
-    min-height: 500px;
-    gap: 60px;
+    padding: 90px 0;
+    min-height: 400px;
+    gap: 200px;
 }
 
 .hero-content {
@@ -88,6 +87,11 @@ nav ul li:hover {
 .hero-content button:hover {
     background-color: #2563EB;
 }
+
+.image-placeholder {
+    margin-left: 310px;
+}
+
 
 .hero-image .image-placeholder {
     width: 500px;
