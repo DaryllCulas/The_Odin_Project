@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Functions</title>
+</head>
+
+<style>
+.container {
+  border: 2px solid black;
+  background-color: yellowgreen;
+  width: 30%;
+  margin-top: 15%;
+  height: 300px;
+}
+form {
+  margin-top: 40px;
+}
+
+
+</style>
+<body>
+    <center>
+      <div class="container">
+        <h1>Addition</h1>
+        <form method="post">
+            <input class="FirstInteger" type="text" placeholder="Integer 1">
+              <br>
+              <br>
+            <input class ="SecondInteger"type="text" placeholder="Integer 2">
+              <br>
+              <br>
+              <input onclick="Calculate(document.querySelector('.FirstInteger'), document.querySelector('.SecondInteger'))" type="button" value="Calculate">
+              <input onclick = "Reset(document.querySelector('.FirstInteger'), document.querySelector('.SecondInteger'))" type="button" value="Reset">
+              <br>
+              <label>Answer:</label>
+              <br>
+              <br>
+              <span class="Answer-Span"></span>
+
+        </form>
+
+
+      </div>
+      <script src="Odin-functions.js"></script>
+
+    </center>
+    
+</body>
+</html>
