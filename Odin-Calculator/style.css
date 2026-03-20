@@ -46,7 +46,14 @@ td{
   border-radius: 3px;
   background-color: #F2F2F2;
   width: 100%;
+  cursor: pointer;
 }
+
+.global:hover {
+    background-color: #81C784;
+}
+
+
 /*the global class padding reset for first-row class button*/
 .first-row{
  padding: 7px;
