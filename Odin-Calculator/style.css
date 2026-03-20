@@ -1,18 +1,28 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background:
+    radial-gradient(circle at top left, #e8f5e9 0, transparent 60%),
+    radial-gradient(circle at bottom right, #e3f2fd 0, transparent 55%),
+    linear-gradient(135deg, #f5f5f5, #e0f7fa);
+}
+
 h1{
   text-align: center;
 }
+
 .container{
-  margin: auto;
-  width: 17%;
+  margin: 0;                 /* centering is handled by body flex */
+  width: 260px;
   padding: 20px;
-  border: 1px solid #c3c2c2;
-  -webkit-box-shadow: 1px 1px 4px 0px rgba(176,176,176,1);
-     -moz-box-shadow: 1px 1px 4px 0px rgba(176,176,176,1);
-          box-shadow: 1px 1px 4px 0px rgba(176,176,176,1);
-  background-color: #f9f9f9;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10%;
+  border-radius: 12px;
+  border: 1px solid #d0d0d0;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  background-color: #ffffff;
 }
 
 .header{
