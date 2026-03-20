@@ -56,34 +56,36 @@ function parenthesis() {
 }
 
 function squareRoot() {
-  if (!expression) {
-    return;
-  }
+  if (!expression) return;
 
   try {
     const value = eval(expression);
     if (value < 0) {
-      screen("Invalid input");
+      showError("Invalid input");
       return;
     }
     expression = String(Math.sqrt(value));
     updateDisplay();
   } catch (error) {
-    screen("Invalid Expression");
+    showError("Invalid Expression");
   }
 }
 
 function result() {
-  if (!expression) {
-    return;
-  }
+  if (!expression) return;
+
   try {
     const value = eval(expression);
     expression = String(value);
     updateDisplay();
   } catch (e) {
-    screen("Invalid Expression");
+    showError("Invalid Expression");
   }
+}
+
+function showError(message) {
+  display.value = message; // show the text
+  expression = "";         // clear internal expression
 }
 
 
